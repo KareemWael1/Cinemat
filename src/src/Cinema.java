@@ -1,5 +1,6 @@
 public class Cinema {
     String cinemaName;
+    int phoneNumber; // Added this field #minafadi
     int noOfSeats;
     double price;
     String location;
@@ -8,8 +9,9 @@ public class Cinema {
     //Movie [] movies;
     //Menu [] menu;
 
-    public Cinema(String cinemaName, int noOfSeats, double price, String location, double openTime, double closeTime /*,Movie[] movies, Menu[] menu */) {
+    public Cinema(String cinemaName, int phone, int noOfSeats, double price, String location, double openTime, double closeTime /*,Movie[] movies, Menu[] menu */) {
         this.cinemaName = cinemaName;
+        this.phoneNumber = phone;
         this.noOfSeats = noOfSeats;
         this.price = price;
         this.location = location;
@@ -21,6 +23,10 @@ public class Cinema {
 
     public void setCinemaName(String cinemaName) {
         this.cinemaName = cinemaName;
+    }
+
+    public void setPhoneNumber(int phoneNumber) { //Added this setter #minafadi
+        this.phoneNumber = phoneNumber;
     }
 
     public void setNoOfSeats(int noOfSeats) {
