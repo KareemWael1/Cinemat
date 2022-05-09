@@ -6,7 +6,7 @@ public class Cinema {
     String location;
     double openTime;
     double closeTime;
-    //Movie [] movies;
+    Movie [] movies;
     //Menu [] menu;
 
     public Cinema(String cinemaName, int phone, int noOfSeats, double price, String location, double openTime, double closeTime /*,Movie[] movies, Menu[] menu */) {
@@ -49,9 +49,9 @@ public class Cinema {
         this.closeTime = closeTime;
     }
 
-   /* public void setMovies(Movie[] movies) {
+   public void setMovies(Movie[] movies) {
         this.movies = movies;
-    } */
+    }
 
   /*  public void setMenus(Menu[] menus) {
         this.menu = menus;
