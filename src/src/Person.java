@@ -13,9 +13,9 @@ import java.util.logging.Logger;
  * @author karim
  */
 public class Person {
-    int age;
-    String name;
-    String email;
+    protected int age;
+    protected String name;
+    protected String email;
 
     public Person(int age, String name, String email) {
         this.age = age;
@@ -48,5 +48,21 @@ public class Person {
             Logger.getLogger(Person.class.getName()).log(Level.SEVERE, null, ex);
         }
         return false;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setAge(int age){
+        this.age = age;
+    }
+
+    public int getAge(){
+        return age;
     }
 }
