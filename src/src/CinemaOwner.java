@@ -16,4 +16,16 @@ public class CinemaOwner extends Person {
     public void removeMovie(Movie movie) {
         movies.remove(movie);
     }
+
+    public void updateCinemaPrice(Cinema cinema, int newPrice) {
+        cinema.setPrice(newPrice);
+    }
+
+    public void updateFoodPrice(Menu menu, int newPrice) {
+        cinema.setFoodPrice(newPrice);
+    }
+
+    public void updateDrinkPrice(Menu menu, int newPrice) {
+        cinema.setDrinkPrice(newPrice);
+    }
 }
