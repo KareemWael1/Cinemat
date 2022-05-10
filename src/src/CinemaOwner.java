@@ -4,6 +4,10 @@ public class CinemaOwner extends Person {
     static ArrayList<Cinema> cinemas = new ArrayList<>();
     static ArrayList<Movie> movies = new ArrayList<>();
 
+    public CinemaOwner(int age, String name, String email) {
+        super(age, name, email);
+    }
+
     public void addCinema(String name, int phone, int seats, double price, String location, double openTime, double closeTime) {
         Cinema cinema = new Cinema(name, phone, seats, price, location, openTime, closeTime);
         cinemas.add(cinema);
@@ -22,10 +26,10 @@ public class CinemaOwner extends Person {
     }
 
     public void updateFoodPrice(Menu menu, int newPrice) {
-        cinema.setFoodPrice(newPrice);
+        menu.setFoodPrice(newPrice);
     }
 
     public void updateDrinkPrice(Menu menu, int newPrice) {
-        cinema.setDrinkPrice(newPrice);
+        menu.setDrinksPrice(newPrice);
     }
 }
