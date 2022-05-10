@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a96f6bd-9754-4bd2-9f6e-dba817c9cd91" name="Changes" comment="made some organisation">
-      <change afterPath="$PROJECT_DIR$/src/src/Movie.java" afterDir="false" />
+    <list default="true" id="2a96f6bd-9754-4bd2-9f6e-dba817c9cd91" name="Changes" comment="added book movie class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Cinema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,14 @@
       <workItem from="1651935306402" duration="7000" />
       <workItem from="1652100285728" duration="1004000" />
     </task>
+    <task id="LOCAL-00001" summary="added movie class">
+      <created>1652112420922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652112420922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,5 +79,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added movie class" />
+    <MESSAGE value="added book movie class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added book movie class" />
   </component>
 </project>
