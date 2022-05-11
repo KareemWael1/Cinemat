@@ -5,16 +5,11 @@ public class User extends Person{
         super(age, name, password);
     }
 
-    public int bookTicket(){
-        // awaiting movie class
-        return 0;
+    public void bookTicket(Movie movie, int numOfTickets){
+        movie.bookTickets(numOfTickets);
     }
 
-    public void rateMovie(){
-        // awaiting movie class
+    public void rateMovie(Movie movie, float rate){
+        movie.addRate(rate);
     }
-
-
-
-
 }

@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a96f6bd-9754-4bd2-9f6e-dba817c9cd91" name="Changes" comment="added book movie class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,7 @@
       <updated>1651935247045</updated>
       <workItem from="1651935306402" duration="7000" />
       <workItem from="1652100285728" duration="1004000" />
+      <workItem from="1652228499034" duration="1971000" />
     </task>
     <task id="LOCAL-00001" summary="added movie class">
       <created>1652112420922</created>
