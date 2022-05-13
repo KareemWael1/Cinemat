@@ -1,13 +1,33 @@
 public class Movie {
     private final String title;
-    private final int duration;
+    private final float duration;
     private int availableTickets=60;
     private float rating=0;
     private int numOfReviews;
 
-    Movie(String title,int duration){
+    Movie(String title,float duration){
         this.title = title;
         this.duration=duration;
+    }
+
+    public void setAvailableTickets(int availableTickets) {
+        this.availableTickets = availableTickets;
+    }
+
+    public int getNumOfReviews() {
+        return numOfReviews;
+    }
+
+    public float getRating() {
+        return rating;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getAvailableTickets() {
+        return availableTickets;
     }
 
 
@@ -28,7 +48,8 @@ public class Movie {
         rating = rate/numOfReviews;
     }
 
-    public int getDuration() {
+
+    public float getDuration() {
         return duration;
     }
 }
