@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2a96f6bd-9754-4bd2-9f6e-dba817c9cd91" name="Changes" comment="added book movie class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinema.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CinemaOwner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cinema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CinemaOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CinemaOwner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
@@ -93,6 +83,7 @@
       <workItem from="1652450724724" duration="1235000" />
       <workItem from="1652452551116" duration="522000" />
       <workItem from="1652462045093" duration="1133000" />
+      <workItem from="1652464552535" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="added movie class">
       <created>1652112420922</created>

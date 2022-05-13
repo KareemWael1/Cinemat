@@ -12,15 +12,15 @@ import java.util.logging.Logger;
  *
  * @author karim
  */
-public class Person {
+public abstract class Person {
     protected int age;
-    protected String name;
-    protected String email;
+    protected String username;
+    protected String password;
 
-    public Person(int age, String name, String email) {
+    public Person(int age, String name, String password) {
         this.age = age;
-        this.name = name;
-        this.email = email;
+        this.username = name;
+        this.password = password;
     }
     public static boolean validate(String username , String password){
         try {
@@ -51,11 +51,11 @@ public class Person {
     }
 
     public void setName(String name){
-        this.name = name;
+        this.username = name;
     }
 
     public String getName(){
-        return name;
+        return username;
     }
 
     public void setAge(int age){
