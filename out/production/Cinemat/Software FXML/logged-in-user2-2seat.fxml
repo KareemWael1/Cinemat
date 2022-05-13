@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="189.0" layoutY="14.0" text="Movie:'Name'" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="35.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="59.0" fitWidth="59.0" layoutX="8.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/movie-seat.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="142.0" layoutY="55.0" style="-fx-font: black;" text="Please choose the seat you would like">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_finish" layoutX="149.0" layoutY="301.0" mnemonicParsing="false" text="Finish">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="button_back" layoutX="372.0" layoutY="301.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="81.0" text="Back">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="67.0" layoutY="206.0" text="Row :" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="166.0" text="Column :" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="151.0" layoutY="165.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="151.0" layoutY="205.0" prefWidth="150.0" />
+      <Label layoutX="439.0" layoutY="169.0" />
+   </children>
+</AnchorPane>

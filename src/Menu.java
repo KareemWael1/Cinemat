@@ -1,5 +1,3 @@
-package com.mycompany.softwareengproject;
-
 public class Menu {
     String food;
     String drinks;

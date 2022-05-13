@@ -5,7 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a96f6bd-9754-4bd2-9f6e-dba817c9cd91" name="Changes" comment="added book movie class">
-      <change beforePath="$PROJECT_DIR$/src/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaFX.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CinemaOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Icons/burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Icons/clapperboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Icons/movie-seat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Icons/ticket (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Icons/ticket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/As owner 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/As owner 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/As user 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/As user 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Dark Mode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Light mode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/OWner Current Menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner Add Movie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner Adjust Ticket Price.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner Remove Item 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner Remove Movie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner add item.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner adjust menu price 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner adjust menu price 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner show movies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Seat reservation failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Seat reservation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Seat successfuly reserved.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Ticket time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Title Screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-AddItem.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-AddMovies.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-AdjustItemPrice1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-AdjustItemPrice2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-AdjustTicketPrice.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-CurrentMenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-RemoveItem.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-RemoveMovies.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-ShowMovies.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2-1Time.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2-2seat.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2-3seatFailed.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2-3seatReserved.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2Owner.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/sign-up.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Software FXML/titleScreen.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinemat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinemat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Cinema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/CinemaOwner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Guest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,24 +87,42 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="28qDUbWo2aKVLQNb2RO0NGy3xKg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Advanced Computer Programming/JavaFX/javafx-sdk-18.0.1/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Cinemat" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\wael1964\Desktop\ASUENG\Advanced Computer Programming\JavaFX\javafx-sdk-18.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,6 +135,11 @@
       <workItem from="1651935306402" duration="7000" />
       <workItem from="1652100285728" duration="1004000" />
       <workItem from="1652228499034" duration="1971000" />
+      <workItem from="1652251103310" duration="35000" />
+      <workItem from="1652263156666" duration="4000" />
+      <workItem from="1652446061860" duration="51000" />
+      <workItem from="1652446205849" duration="375000" />
+      <workItem from="1652446710021" duration="2152000" />
     </task>
     <task id="LOCAL-00001" summary="added movie class">
       <created>1652112420922</created>
@@ -81,8 +166,19 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added movie class" />
     <MESSAGE value="added book movie class" />
     <option name="LAST_COMMIT_MESSAGE" value="added book movie class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.reflect.InvocationTargetException" package="java.lang.reflect" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
