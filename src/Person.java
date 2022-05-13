@@ -24,24 +24,24 @@ public class Person {
     }
     public static boolean validate(String username , String password){
         try {
-            
+
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection c = DriverManager.getConnection("jdbc:mysql://sql4.freesqldatabase.com:3306/sql4490831","sql4490831","4u3HLjKEi2");
             Statement st = c.createStatement();
             String q ="SELECT * FROM register WHERE username ='"+username+"' AND password='"+password+"'";
             ResultSet res = st.executeQuery(q);
             if(res.isBeforeFirst()){
-                                    
-                                    Class.forName("com.mysql.cj.jdbc.Driver");
-                                   Connection c2 = DriverManager.getConnection("jdbc:mysql://sql4.freesqldatabase.com:3306/sql4490831","sql4490831","4u3HLjKEi2");
-                                    java.util.Date d1 = new java.util.Date();
-                                    String date = d1.toString();
-                                    String L ="INSERT INTO login (username,password,logindate) VALUES('"+username+"','"+password+"','"+date+"')";
-                                    Statement inlog = c2.createStatement();
-                                    inlog.execute(L);
-                                    return true;
-                                }
-           return false;
+
+                Class.forName("com.mysql.cj.jdbc.Driver");
+                Connection c2 = DriverManager.getConnection("jdbc:mysql://sql4.freesqldatabase.com:3306/sql4490831","sql4490831","4u3HLjKEi2");
+                java.util.Date d1 = new java.util.Date();
+                String date = d1.toString();
+                String L ="INSERT INTO login (username,password,logindate) VALUES('"+username+"','"+password+"','"+date+"')";
+                Statement inlog = c2.createStatement();
+                inlog.execute(L);
+                return true;
+            }
+            return false;
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(Person.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {

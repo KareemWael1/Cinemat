@@ -1,15 +1,18 @@
+import java.util.*;
 public class Cinema {
+
     String cinemaName;
-    int phoneNumber; // Added this field #minafadi
+    String phoneNumber; // Added this field #minafadi
     int noOfSeats;
     double price;
     String location;
     double openTime;
     double closeTime;
-    Movie [] movies;
-    //Menu [] menu;
+    CinemaOwner owner;
+    ArrayList<Movie> movies =new ArrayList<>();
+    ArrayList<Menu> menus =new ArrayList<>();
 
-    public Cinema(String cinemaName, int phone, int noOfSeats, double price, String location, double openTime, double closeTime /*,Movie[] movies, Menu[] menu */) {
+    public Cinema(String cinemaName, String phone, int noOfSeats , double price, String location, double openTime, double closeTime , CinemaOwner owner) {
         this.cinemaName = cinemaName;
         this.phoneNumber = phone;
         this.noOfSeats = noOfSeats;
@@ -17,15 +20,18 @@ public class Cinema {
         this.location = location;
         this.openTime = openTime;
         this.closeTime = closeTime;
-       // this.movies = movies;
-       // this.menu = menu;
     }
 
     public void setCinemaName(String cinemaName) {
         this.cinemaName = cinemaName;
     }
+    public void addMovie(String title, float duration,int availableTickets){
+        Movie movie=new Movie(title,duration,availableTickets);
+        movies.add(movie);
+        owner.addMovie(movie);
+    }
 
-    public void setPhoneNumber(int phoneNumber) { //Added this setter #minafadi
+    public void setPhoneNumber(String phoneNumber) { //Added this setter #minafadi
         this.phoneNumber = phoneNumber;
     }
 
@@ -49,25 +55,22 @@ public class Cinema {
         this.closeTime = closeTime;
     }
 
-   public void setMovies(Movie[] movies) {
+    public void setMovies(ArrayList<Movie> movies) {
         this.movies = movies;
     }
 
-  /*  public void setMenus(Menu[] menus) {
-        this.menu = menus;
-    } */
+    public void setMenus(ArrayList<Menu> menus) {
+        this.menus = menus;
+    }
     public void viewInfo(){
-        System.out.println("Cinemaname:"+cinemaName); 
+        System.out.println("Cinema Name:"+cinemaName);
         System.out.println("price:"+price);
         System.out.println("opening time:"+openTime);
         System.out.println("opening time:"+closeTime);
         System.out.println("location:"+location);
         System.out.println("movies available");
-      /*  for (int index=0;index<movies.length;index++) {
-            System.out.print(movies[index]);
-        } */
+        for (Movie movie : movies) {
+            System.out.print(movie.getTitle());
+        }
     }
-
-
-    
 }

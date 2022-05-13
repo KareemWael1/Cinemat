@@ -5,69 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a96f6bd-9754-4bd2-9f6e-dba817c9cd91" name="Changes" comment="added book movie class">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaFX.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CinemaOwner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Icons/burger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Icons/clapperboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Icons/movie-seat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Icons/ticket (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Icons/ticket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/As owner 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/As owner 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/As user 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/As user 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Dark Mode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Light mode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/OWner Current Menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner Add Movie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner Adjust Ticket Price.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner Remove Item 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner Remove Movie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner add item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner adjust menu price 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner adjust menu price 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Owner show movies.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Seat reservation failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Seat reservation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Seat successfuly reserved.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Ticket time.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/Pics/Title Screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-AddItem.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-AddMovies.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-AdjustItemPrice1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-AdjustItemPrice2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-AdjustTicketPrice.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-CurrentMenu.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-RemoveItem.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-RemoveMovies.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2-ShowMovies.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-Owner2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2-1Time.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2-2seat.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2-3seatFailed.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2-3seatReserved.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/logged-in-user2Owner.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/sign-up.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Software FXML/titleScreen.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cinemat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cinemat.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Cinema.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/CinemaOwner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Guest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Movie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cinema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CinemaOwner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cinema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CinemaOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CinemaOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Advanced Computer Programming/JavaFX/javafx-sdk-18.0.1/lib" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/SceneBuilder/SceneBuilder.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -118,7 +68,7 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Cinemat" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\wael1964\Desktop\ASUENG\Advanced Computer Programming\JavaFX\javafx-sdk-18.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\wael1964\Desktop\ASUENG\Advanced Computer Programming\JavaFX\javafx-sdk-18.0.1\lib&quot; --add-modules javafx.controls, javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,7 +89,10 @@
       <workItem from="1652263156666" duration="4000" />
       <workItem from="1652446061860" duration="51000" />
       <workItem from="1652446205849" duration="375000" />
-      <workItem from="1652446710021" duration="2152000" />
+      <workItem from="1652446710021" duration="2543000" />
+      <workItem from="1652450724724" duration="1235000" />
+      <workItem from="1652452551116" duration="522000" />
+      <workItem from="1652462045093" duration="1133000" />
     </task>
     <task id="LOCAL-00001" summary="added movie class">
       <created>1652112420922</created>

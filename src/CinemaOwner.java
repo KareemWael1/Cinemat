@@ -8,8 +8,8 @@ public class CinemaOwner extends Person {
         super(age, name, email);
     }
 
-    public void addCinema(String name, int phone, int seats, double price, String location, double openTime, double closeTime) {
-        Cinema cinema = new Cinema(name, phone, seats, price, location, openTime, closeTime);
+    public void addCinema(String name, String phone, int seats, double price, String location, double openTime, double closeTime) {
+        Cinema cinema = new Cinema(name, phone, seats, price, location, openTime, closeTime,this);
         cinemas.add(cinema);
     }
 
@@ -27,9 +27,5 @@ public class CinemaOwner extends Person {
 
     public void updateFoodPrice(Menu menu, int newPrice) {
         menu.setFoodPrice(newPrice);
-    }
-
-    public void updateDrinkPrice(Menu menu, int newPrice) {
-        menu.setDrinksPrice(newPrice);
     }
 }
